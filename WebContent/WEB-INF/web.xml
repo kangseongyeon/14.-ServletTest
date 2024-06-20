@@ -44,4 +44,14 @@
 		<url-pattern>/T04ServletCookieTest</url-pattern>
 	</servlet-mapping>
 	
+	<servlet>
+		<servlet-name>T05ServletSessionTest</servlet-name>
+		<servlet-class>kr.or.ddit.basic.T05ServletSessionTest</servlet-class>
+	</servlet>
+	
+	<servlet-mapping>
+		<servlet-name>T05ServletSessionTest</servlet-name>
+		<url-pattern>/T05ServletSessionTest</url-pattern>
+	</servlet-mapping>
+	
 </web-app>
