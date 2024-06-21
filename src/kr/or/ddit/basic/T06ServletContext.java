@@ -48,7 +48,7 @@ public class T06ServletContext extends HttpServlet{
 		ctx.log("서블릿 컨텍스트 객체를 이용한 로깅 작업 중 입니다.");
 		
 		//포워딩(전달) 처리하기
-//		ctx.getRequestDispatcher("/T05ServletSessionTest").forward(req, resp);
+		ctx.getRequestDispatcher("/T05ServletSessionTest").forward(req, resp);
 	}
 	
 	@Override
